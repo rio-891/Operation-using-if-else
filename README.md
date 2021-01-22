@@ -1,4 +1,4 @@
-# Operation-using-if-else Puthon
+# Operation-using-if-else Python hackerRank
 Small if else example for operation between two numbers.
 
 ##Simple program for using operation using if-else condition.
@@ -7,14 +7,14 @@ n1=float(input("Enter the first number : ") #####user input program.
 n2=float(input("Enter the second element :")
 ch=input("Enter the operator here +-*/% :")
 if ch == + :
-   sum=n1+n2
+   sum=float(n1)+float(n2)
    print("Sum is :", sum)
 elif ch == - :
-   sub=n1-n2
+   sub=float(n1)-float(n2)
    print("Sub is :", sub)
 elif ch == * :
-     mul=n1*n2
+     mul=float(n1)*float(n2)
      print("Mul is :", mul)
 elif ch == / :
-     div=n1/n2
+     div=float(n1)/float(n2)
      print("Div is :", div)
